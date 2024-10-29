@@ -1,0 +1,77 @@
+div {
+  text-align: center;
+  background-color: white;
+  block-size: 0% auto;
+  margin: 0% auto;
+  display: grid;
+  width: 1100px;
+  grid-template-rows: none;
+  gap: 30px;
+  border-radius: 20px;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: ;
+}
+h2 {
+  text-align: start;
+  font-s
+}
+h3{
+  font-size: 50px;
+}
+
+h4{
+  text-align: start;
+  font-size: medium;
+}
+p {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: start;
+}
+
+li{
+  text-align: start;
+}
+button {
+  border-radius: 25px;
+  margin: 0 auto;
+  display: block;
+  background-color: #fff;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 16px 24px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  color: #fff;
+  background: black;
+}
+
+body {
+  background-color: #ffcbcb;
+}
+img {
+  width: 400px;
+  text-align: center;
+}
+.photography-intro-picture {
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.photography-intro:hover {
+  filter: contrast(80%);
+  transform: scale(1.1);
+}
